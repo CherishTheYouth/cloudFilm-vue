@@ -1,0 +1,11 @@
+
+##git ignore##
+# 忽略node_modules
+node_modules/
+
+#表示忽略任何目录下的 XXX文件夹
+# XXX/
+#
+
+#忽略dist目录
+dist/
