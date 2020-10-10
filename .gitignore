@@ -1,11 +1,24 @@
+.DS_Store
+node_modules
+/dist
 
-##git ignore##
-# 忽略node_modules
-node_modules/
 
-#表示忽略任何目录下的 XXX文件夹
-# XXX/
-#
+# local env files
+.env.local
+.env.*.local
 
-#忽略dist目录
-dist/
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+node_modules
